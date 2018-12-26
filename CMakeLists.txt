@@ -15,7 +15,8 @@ endmacro()
 set(design_path
         factory
         BuilderPattern
-        prototype)
+        prototype
+        bridge)
 
 foreach(path ${design_path})
     add_design_path(${path})
