@@ -16,7 +16,8 @@ set(design_path
         factory
         BuilderPattern
         prototype
-        bridge)
+        bridge
+        filter)
 
 foreach(path ${design_path})
     add_design_path(${path})
